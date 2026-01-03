@@ -153,9 +153,9 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
                   type="submit"
                   disabled={loading}
                   className="w-full text-white font-semibold py-3 px-6 rounded-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed btn-glow"
-                  style={{ backgroundColor: '#059669' }}
-                  onMouseEnter={(e) => !e.currentTarget.disabled && (e.currentTarget.style.backgroundColor = '#047857')}
-                  onMouseLeave={(e) => !e.currentTarget.disabled && (e.currentTarget.style.backgroundColor = '#059669')}
+                  style={{ backgroundColor: '#22C55E' }}
+                  onMouseEnter={(e) => !e.currentTarget.disabled && (e.currentTarget.style.backgroundColor = '#10B981')}
+                  onMouseLeave={(e) => !e.currentTarget.disabled && (e.currentTarget.style.backgroundColor = '#22C55E')}
                 >
                   {loading ? 'Enviando...' : 'Enviar'}
                 </button>

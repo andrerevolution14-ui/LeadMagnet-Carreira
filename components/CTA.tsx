@@ -61,10 +61,10 @@ export function CTA() {
 
           <button
             onClick={handleGetKit}
-            className="text-white text-xl md:text-2xl font-bold py-6 px-12 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_30px_rgba(5,150,105,0.6)]"
-            style={{ backgroundColor: '#059669' }}
-            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#047857'}
-            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#059669'}
+            className="text-white text-xl md:text-2xl font-bold py-6 px-12 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_30px_rgba(34,197,94,0.6)]"
+            style={{ backgroundColor: '#22C55E' }}
+            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#10B981'}
+            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#22C55E'}
           >
             Obter o Kit Gratuito de Alavancagem de Carreira
           </button>

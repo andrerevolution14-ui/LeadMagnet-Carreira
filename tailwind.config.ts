@@ -12,14 +12,14 @@ const config: Config = {
         primary: {
           dark: '#0F172A',
           'dark-light': '#1E293B',
-          green: '#10B981',
-          'green-bright': '#059669',
-          'green-glow': '#34D399',
-          'green-light': '#6EE7B7', // Verde muito claro (quase branco)
-          'green-dark': '#047857', // Verde escuro
-          red: '#EF4444',
-          'red-bright': '#DC2626',
-          'red-dark': '#B91C1C',
+          green: '#34D399',
+          'green-bright': '#22C55E',
+          'green-glow': '#4ADE80',
+          'green-light': '#86EFAC', // Verde muito claro (quase branco)
+          'green-dark': '#10B981', // Verde escuro
+          red: '#FB7185',
+          'red-bright': '#F87171',
+          'red-dark': '#EF4444',
         },
       },
       fontFamily: {
@@ -39,10 +39,10 @@ const config: Config = {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
-        glow: {
-          '0%': { boxShadow: '0 0 5px #10B981, 0 0 10px #10B981' },
-          '100%': { boxShadow: '0 0 10px #10B981, 0 0 20px #10B981, 0 0 30px #10B981' },
-        },
+          glow: {
+            '0%': { boxShadow: '0 0 5px #22C55E, 0 0 10px #22C55E' },
+            '100%': { boxShadow: '0 0 10px #22C55E, 0 0 20px #22C55E, 0 0 30px #22C55E' },
+          },
       },
     },
   },

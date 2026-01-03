@@ -106,7 +106,7 @@ export function Results() {
                       className="h-full rounded-full transition-all duration-1000"
                       style={{
                         width: animated ? `${milestone.progress}%` : '0%',
-                        backgroundColor: '#059669',
+                        backgroundColor: '#22C55E',
                         minWidth: animated && milestone.progress > 0 ? '2px' : '0px',
                       }}
                     />
@@ -121,10 +121,10 @@ export function Results() {
         <div className="mt-12 text-center">
           <button
             onClick={handleGetKit}
-            className="text-white text-lg md:text-xl font-bold py-4 px-10 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_25px_rgba(5,150,105,0.5)]"
-            style={{ backgroundColor: '#059669' }}
-            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#047857'}
-            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#059669'}
+            className="text-white text-lg md:text-xl font-bold py-4 px-10 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_25px_rgba(34,197,94,0.5)]"
+            style={{ backgroundColor: '#22C55E' }}
+            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#10B981'}
+            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#22C55E'}
           >
             Obter o Kit Gratuito de Alavancagem de Carreira
           </button>

@@ -21,8 +21,8 @@ export function WhoThisIsFor() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-gradient-to-br from-primary-green-light/20 to-primary-green-dark/20 backdrop-blur-sm rounded-xl p-8 border-2 border-primary-green/50 shadow-[0_0_20px_rgba(5,150,105,0.3)]">
-              <h3 className="text-2xl font-bold text-primary-green-bright mb-4 drop-shadow-[0_0_8px_rgba(5,150,105,0.5)]">
+            <div className="bg-gradient-to-br from-primary-green-light/20 to-primary-green-dark/20 backdrop-blur-sm rounded-xl p-8 border-2 border-primary-green/50 shadow-[0_0_20px_rgba(34,197,94,0.3)]">
+              <h3 className="text-2xl font-bold text-primary-green-bright mb-4 drop-shadow-[0_0_8px_rgba(34,197,94,0.5)]">
                 ✓ É para ti se:
               </h3>
               <ul className="space-y-3 text-gray-100">
@@ -45,8 +45,8 @@ export function WhoThisIsFor() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-br from-primary-red/20 to-primary-red-bright/20 backdrop-blur-sm rounded-xl p-8 border-2 border-primary-red/50 shadow-[0_0_20px_rgba(239,68,68,0.3)]">
-              <h3 className="text-2xl font-bold text-primary-red-bright mb-4 drop-shadow-[0_0_8px_rgba(220,38,38,0.5)]">
+            <div className="bg-gradient-to-br from-primary-red/20 to-primary-red-bright/20 backdrop-blur-sm rounded-xl p-8 border-2 border-primary-red/50 shadow-[0_0_20px_rgba(248,113,113,0.3)]">
+              <h3 className="text-2xl font-bold text-primary-red-bright mb-4 drop-shadow-[0_0_8px_rgba(239,68,68,0.5)]">
                 ✗ NÃO é para ti se:
               </h3>
               <ul className="space-y-3 text-gray-200">
@@ -74,10 +74,10 @@ export function WhoThisIsFor() {
           <div className="text-center">
             <button
               onClick={handleGetKit}
-              className="text-white text-lg md:text-xl font-bold py-4 px-10 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_25px_rgba(5,150,105,0.5)]"
-              style={{ backgroundColor: '#059669' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#047857'}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#059669'}
+              className="text-white text-lg md:text-xl font-bold py-4 px-10 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_25px_rgba(34,197,94,0.5)]"
+              style={{ backgroundColor: '#22C55E' }}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#10B981'}
+              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#22C55E'}
             >
               Obter o Kit Gratuito de Alavancagem de Carreira
             </button>

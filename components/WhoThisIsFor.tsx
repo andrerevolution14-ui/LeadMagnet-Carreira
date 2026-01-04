@@ -21,25 +21,25 @@ export function WhoThisIsFor() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-gradient-to-br from-primary-green-light/20 to-primary-green-dark/20 backdrop-blur-sm rounded-xl p-8 border-2 border-primary-green/50 shadow-[0_0_20px_rgba(34,197,94,0.3)]">
-              <h3 className="text-2xl font-bold text-primary-green-bright mb-4 drop-shadow-[0_0_8px_rgba(34,197,94,0.5)]">
+            <div className="bg-gradient-to-br from-primary-blue-light/20 to-primary-blue-dark/20 backdrop-blur-sm rounded-xl p-8 border-2 border-primary-blue/50 shadow-[0_0_20px_rgba(75,164,222,0.3)]">
+              <h3 className="text-2xl font-bold text-primary-blue-bright mb-4 drop-shadow-[0_0_8px_rgba(75,164,222,0.5)]">
                 ✓ É para ti se:
               </h3>
               <ul className="space-y-3 text-gray-100">
                 <li className="flex items-start gap-2">
-                  <span className="text-primary-green-bright text-xl mt-1 font-bold">•</span>
+                  <span className="text-primary-blue-bright text-xl mt-1 font-bold">•</span>
                   <span className="font-medium">Tens 23-35 anos em Portugal</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-primary-green-bright text-xl mt-1 font-bold">•</span>
+                  <span className="text-primary-blue-bright text-xl mt-1 font-bold">•</span>
                   <span className="font-medium">Trabalhas bem mas és invisível</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-primary-green-bright text-xl mt-1 font-bold">•</span>
+                  <span className="text-primary-blue-bright text-xl mt-1 font-bold">•</span>
                   <span className="font-medium">Queres alavancagem, não motivação</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-primary-green-bright text-xl mt-1 font-bold">•</span>
+                  <span className="text-primary-blue-bright text-xl mt-1 font-bold">•</span>
                   <span className="font-medium">Estás pronto para agir</span>
                 </li>
               </ul>
@@ -74,10 +74,10 @@ export function WhoThisIsFor() {
           <div className="text-center">
             <button
               onClick={handleGetKit}
-              className="text-white text-lg md:text-xl font-bold py-4 px-10 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_25px_rgba(34,197,94,0.5)]"
-              style={{ backgroundColor: '#22C55E' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#10B981'}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#22C55E'}
+              className="text-white text-lg md:text-xl font-bold py-4 px-10 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_25px_rgba(75,164,222,0.5)]"
+              style={{ backgroundColor: '#4BA4DE' }}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#4BA4DE'}
+              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#4BA4DE'}
             >
               Obter o Kit Gratuito de Alavancagem de Carreira
             </button>

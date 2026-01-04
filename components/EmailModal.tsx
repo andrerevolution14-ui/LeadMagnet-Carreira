@@ -90,7 +90,7 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
       trackEvent('conversion', { email })
 
       setSuccess(true)
-      
+
       // Close modal after 3 seconds
       setTimeout(() => {
         onClose()
@@ -139,7 +139,7 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
                     placeholder="seu@email.com"
                     required
                     disabled={loading}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-green text-primary-dark disabled:opacity-50"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-blue text-primary-dark disabled:opacity-50"
                   />
                 </div>
 
@@ -153,9 +153,9 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
                   type="submit"
                   disabled={loading}
                   className="w-full text-white font-semibold py-3 px-6 rounded-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed btn-glow"
-                  style={{ backgroundColor: '#22C55E' }}
-                  onMouseEnter={(e) => !e.currentTarget.disabled && (e.currentTarget.style.backgroundColor = '#10B981')}
-                  onMouseLeave={(e) => !e.currentTarget.disabled && (e.currentTarget.style.backgroundColor = '#22C55E')}
+                  style={{ backgroundColor: '#4BA4DE' }}
+                  onMouseEnter={(e) => !e.currentTarget.disabled && (e.currentTarget.style.backgroundColor = '#4BA4DE')}
+                  onMouseLeave={(e) => !e.currentTarget.disabled && (e.currentTarget.style.backgroundColor = '#4BA4DE')}
                 >
                   {loading ? 'Enviando...' : 'Enviar'}
                 </button>
@@ -171,7 +171,7 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
           ) : (
             <div className="text-center">
               <div className="text-6xl mb-4">🎉</div>
-              <h2 className="text-2xl font-bold text-primary-green mb-2">
+              <h2 className="text-2xl font-bold text-primary-blue mb-2">
                 Kit Enviado!
               </h2>
               <p className="text-gray-600">

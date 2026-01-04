@@ -49,11 +49,11 @@ export function CTA() {
             Porque é gratuito agora?
           </h2>
           <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-            Este kit é a entrada para um sistema maior de alavancagem de carreira. 
+            Este kit é a entrada para um sistema maior de alavancagem de carreira.
             <br />
             Agora é gratuito. Mais tarde, será parte de um ecossistema pago.
             <br />
-            <span className="text-primary-green font-semibold">
+            <span className="text-primary-blue font-semibold">
               Obtém agora. Sem compromisso. Sem spam.
             </span>
           </p>
@@ -61,10 +61,10 @@ export function CTA() {
 
           <button
             onClick={handleGetKit}
-            className="text-white text-xl md:text-2xl font-bold py-6 px-12 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_30px_rgba(34,197,94,0.6)]"
-            style={{ backgroundColor: '#22C55E' }}
-            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#10B981'}
-            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#22C55E'}
+            className="text-white text-xl md:text-2xl font-bold py-6 px-12 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_30px_rgba(75,164,222,0.6)]"
+            style={{ backgroundColor: '#4BA4DE' }}
+            onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#4BA4DE'}
+            onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#4BA4DE'}
           >
             Obter o Kit Gratuito de Alavancagem de Carreira
           </button>

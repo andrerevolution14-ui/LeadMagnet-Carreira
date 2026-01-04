@@ -26,7 +26,7 @@ export function Problem() {
                 Não é culpa tua.
               </p>
               <p className="text-gray-800">
-                O sistema está mal desenhado. Trabalhas bem. Mas és <span className="font-bold text-primary-red">invisível</span>. 
+                O sistema está mal desenhado. Trabalhas bem. Mas és <span className="font-bold text-primary-red">invisível</span>.
                 Os teus resultados não são vistos. O teu valor não é compreendido.
               </p>
             </div>
@@ -36,7 +36,7 @@ export function Problem() {
                 A maioria das pessoas fica invisível.
               </p>
               <p className="text-gray-800">
-                Fazem o trabalho. Esperam que alguém note. <span className="font-bold text-primary-red">Ninguém nota</span>. 
+                Fazem o trabalho. Esperam que alguém note. <span className="font-bold text-primary-red">Ninguém nota</span>.
                 Anos passam. O salário não muda. A frustração cresce.
               </p>
             </div>
@@ -60,10 +60,10 @@ export function Problem() {
           <div className="mt-12 text-center">
             <button
               onClick={handleGetKit}
-              className="text-white text-lg md:text-xl font-bold py-4 px-10 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_25px_rgba(34,197,94,0.5)]"
-              style={{ backgroundColor: '#22C55E' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#10B981'}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#22C55E'}
+              className="text-white text-lg md:text-xl font-bold py-4 px-10 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_25px_rgba(75,164,222,0.5)]"
+              style={{ backgroundColor: '#4BA4DE' }}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#4BA4DE'}
+              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#4BA4DE'}
             >
               Obter o Kit Gratuito de Alavancagem de Carreira
             </button>

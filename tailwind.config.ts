@@ -12,11 +12,11 @@ const config: Config = {
         primary: {
           dark: '#0F172A',
           'dark-light': '#1E293B',
-          green: '#34D399',
-          'green-bright': '#22C55E',
-          'green-glow': '#4ADE80',
-          'green-light': '#86EFAC', // Verde muito claro (quase branco)
-          'green-dark': '#10B981', // Verde escuro
+          blue: '#4BA4DE', // Azul Espectro
+          'blue-bright': '#4BA4DE',
+          'blue-glow': '#4BA4DE',
+          'blue-light': '#BAE6FD', // Azul claro
+          'blue-dark': '#0284C7', // Azul escuro
           red: '#FB7185',
           'red-bright': '#F87171',
           'red-dark': '#EF4444',
@@ -39,14 +39,14 @@ const config: Config = {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
-          glow: {
-            '0%': { boxShadow: '0 0 5px #22C55E, 0 0 10px #22C55E' },
-            '100%': { boxShadow: '0 0 10px #22C55E, 0 0 20px #22C55E, 0 0 30px #22C55E' },
-          },
+        glow: {
+          '0%': { boxShadow: '0 0 5px #4BA4DE, 0 0 10px #4BA4DE' },
+          '100%': { boxShadow: '0 0 10px #4BA4DE, 0 0 20px #4BA4DE, 0 0 30px #4BA4DE' },
+        },
       },
     },
   },
   plugins: [],
 }
-export default config
 
+export default config

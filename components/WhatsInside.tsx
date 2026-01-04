@@ -51,9 +51,9 @@ export function WhatsInside() {
           </h2>
           <div className="text-center mb-16">
             <p className="text-gray-600 font-semibold mb-8 text-lg">
-              Foco em <span className="text-primary-green-bright">resultados</span>. Não em ferramentas.
+              Foco em <span className="text-primary-blue-bright">resultados</span>. Não em ferramentas.
             </p>
-            <div className="bg-white rounded-xl px-6 py-4 border-2 border-primary-green shadow-[0_0_30px_rgba(34,197,94,0.3)] mb-8 max-w-sm mx-auto">
+            <div className="bg-white rounded-xl px-6 py-4 border-2 border-primary-blue shadow-[0_0_30px_rgba(75,164,222,0.3)] mb-8 max-w-sm mx-auto">
               <div className="flex flex-col items-center gap-1">
                 <p className="text-xs text-gray-600 font-semibold uppercase tracking-wide">
                   Valor Total
@@ -61,11 +61,11 @@ export function WhatsInside() {
                 <p className="text-3xl md:text-4xl font-bold line-through drop-shadow-[0_0_20px_rgba(248,113,113,0.8)]" style={{ color: '#F87171' }}>
                   {totalValue}€
                 </p>
-                <div className="mt-2 pt-2 border-t border-primary-green/30 w-full">
+                <div className="mt-2 pt-2 border-t border-primary-blue/30 w-full">
                   <p className="text-xs text-gray-600 font-semibold uppercase tracking-wide mb-1">
                     Agora
                   </p>
-                  <p className="text-2xl md:text-3xl font-bold drop-shadow-[0_0_20px_rgba(34,197,94,0.8)]" style={{ color: '#10B981' }}>
+                  <p className="text-2xl md:text-3xl font-bold drop-shadow-[0_0_20px_rgba(75,164,222,0.8)]" style={{ color: '#4BA4DE' }}>
                     0€
                   </p>
                 </div>
@@ -77,15 +77,15 @@ export function WhatsInside() {
             {items.map((item, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl p-6 border-2 border-primary-green/30 shadow-lg hover:shadow-xl hover:border-primary-green/60 transition-all"
+                className="bg-white rounded-xl p-6 border-2 border-primary-blue/30 shadow-lg hover:shadow-xl hover:border-primary-blue/60 transition-all"
               >
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-xl font-bold text-primary-dark">
-                    <span className="text-primary-green-bright">✓</span> {item.title}
+                    <span className="text-primary-blue-bright">✓</span> {item.title}
                   </h3>
                   <div className="text-right">
                     <p className="text-xl md:text-2xl font-bold line-through" style={{ color: '#F87171' }}>{item.value}€</p>
-                    <p className="text-lg font-bold text-primary-green-bright">Grátis</p>
+                    <p className="text-lg font-bold text-primary-blue-bright">Grátis</p>
                   </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed font-medium">
@@ -99,10 +99,10 @@ export function WhatsInside() {
           <div className="text-center">
             <button
               onClick={handleGetKit}
-              className="text-white text-lg md:text-xl font-bold py-4 px-10 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_25px_rgba(34,197,94,0.5)]"
-              style={{ backgroundColor: '#22C55E' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#10B981'}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#22C55E'}
+              className="text-white text-lg md:text-xl font-bold py-4 px-10 rounded-xl btn-glow hover:scale-105 transition-all shadow-[0_0_25px_rgba(75,164,222,0.5)]"
+              style={{ backgroundColor: '#4BA4DE' }}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#4BA4DE'}
+              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#4BA4DE'}
             >
               Obter o Kit Gratuito de Alavancagem de Carreira
             </button>
